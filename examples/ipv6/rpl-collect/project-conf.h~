@@ -2,11 +2,8 @@
 #define __PROJECT_CONF_H__
 
 /* Evaluation */
-#undef RPL_CONF_OF1
-#define RPL_CONF_OF1 rpl_mrhof
-
-#undef RPL_CONF_OF2
-#define RPL_CONF_OF2 rpl_mrhof
+#undef RPL_CONF_OF
+#define RPL_CONF_OF rpl_mrhof
 
 // #undef RPL_CONF_DAG_MC
 // #define RPL_CONF_DAG_MC RPL_DAG_MC_ENERGY
