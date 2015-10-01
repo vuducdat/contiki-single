@@ -3,7 +3,7 @@
 
 /* Evaluation */
 #undef RPL_CONF_OF
-#define RPL_CONF_OF rpl_mrhof
+#define RPL_CONF_OF rpl_of0
 
 // #undef RPL_CONF_DAG_MC
 // #define RPL_CONF_DAG_MC RPL_DAG_MC_ENERGY
@@ -20,7 +20,7 @@
 #define CONTROL_TRAFFIC 2
 
 /* Config routing table */
-#undef UIP_CONF_MAX_ROUTES
-#define UIP_CONF_MAX_ROUTES 4
+/*#undef UIP_CONF_MAX_ROUTES
+#define UIP_CONF_MAX_ROUTES 4*/
 
 #endif /* __PROJECT_CONF_H__ */
